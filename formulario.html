@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Abastecimento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+  <h1>Formulário de Abastecimento</h1>
+  
+  <!-- Adicionando a seta para a página lista.html -->
+  <a href="lista.html">Ir para Lista</a>
+
+  <!-- Adicionando botão de mudar tema -->
+  <button id="toggleTheme" onclick="toggleTheme()">Escuro</button>
+
+  <form id="abastecimentoForm">
+    <!-- Campos do formulário -->
+    <label for="data">Data:</label>
+    <input type="text" id="data" pattern="\d{2}/\d{2}/\d{4}" required>
+
+    <label for="cavalo">Cavalo:</label>
+    <input type="text" id="cavalo" required>
+
+    <label for="kmAnterior">Km anterior:</label>
+    <input type="text" id="kmAnterior" required>
+
+    <label for="kmAtual">Km atual:</label>
+    <input type="text" id="kmAtual" required>
+
+    <!-- Adicione outros campos conforme necessário -->
+
+    <!-- Botão de envio -->
+    <button type="button" onclick="adicionarAbastecimento()">Adicionar Abastecimento</button>
+  </form>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

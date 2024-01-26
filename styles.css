@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  color: #333; /* Cor principal do texto */
+  margin: 20px;
+}
+
+body.dark {
+  background-color: #000; /* Fundo preto para o tema escuro */
+  color: #add8e6; /* Letras em azul claro para o tema escuro */
+}
+
+h1 {
+  font-size: 24px;
+  color: #007acc; /* Azul mais escuro para o título principal */
+}
+
+h1.dark {
+  color: #000080; /* Títulos em azul escuro para o tema escuro */
+}
+
+/* Adicione estilo para as células da tabela */
+table, th, td {
+  border: 1px solid #ddd;
+  color: #000080; /* Azul escuro para o texto da célula */
+  background-color: #fff; /* Fundo branco para as células da tabela */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Restante dos seus estilos... */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  color: #333; /* Cor principal do texto */
+  margin: 20px;
+}
+
+body.dark {
+  background-color: #000; /* Fundo preto para o tema escuro */
+  color: #add8e6; /* Letras em azul claro para o tema escuro */
+}
+
+h1 {
+  font-size: 24px;
+  color: #007acc; /* Azul mais escuro para o título principal */
+}
+
+h1.dark {
+  color: #000080; /* Títulos em azul escuro para o tema escuro */
+}
+
+/* Restante dos seus estilos... */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  color: #333; /* Cor principal do texto */
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007acc; /* Azul mais escuro para o título principal */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #007acc; /* Azul para os rótulos */
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007acc; /* Azul escuro para o botão */
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007acc; /* Azul escuro para o cabeçalho da tabela */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff; /* Branco para linhas pares */
+}
+
+tr:hover {
+  background-color: #e0e0e0; /* Cinza claro ao passar o mouse */
+}
+
+/* Adicione outros estilos conforme necessário */
